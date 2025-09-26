@@ -4,7 +4,7 @@
 print("hello world")
 #Uses quotation marks to run text just as... well... text!
 print("Eat \nmy shorts, \nSkinner!")
-print("Name \tBilly \nAge: \t300 \nGrade: \t9")
+print("Name: \tBilly \nAge: \t300 \nGrade: \t9")
 
 #INTEGERS
 print(42)
