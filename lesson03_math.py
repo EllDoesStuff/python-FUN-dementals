@@ -38,3 +38,23 @@ print("Result 4:", result4)
 
 result5=5+2**3*(4-1)
 print("Result 5:", result5)
+
+#Challenges
+
+rectangle=8*5
+print("Rectangle:", rectangle)
+
+circle=3.14*7**2
+print("Circle:",circle)
+
+total_cost=(12.99*3)+(3.5*4)
+print("Total Cost: $",total_cost)
+
+integer=67
+answer=integer%2 
+print(answer)
+
+if (answer==0):
+    print("Even")
+else:
+    print("Odd")
