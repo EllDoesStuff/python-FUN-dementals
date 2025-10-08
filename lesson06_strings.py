@@ -24,7 +24,25 @@ print(length_of_word)
 
 #a friend in len()
 
-phrase = "SpOnGEBob"
+phrase = "SpOnGEBob SQuarePanTs"
 print("Uppercase:", phrase.upper())
 print("Lowercase:", phrase.lower())
 print("Capitalize:", phrase.capitalize())
+print("Title Format:", phrase.title())
+
+#find and replace text
+sentence = "ARE YOU READY TO NERD OUT?"
+new_sentence = sentence.replace("ARE YOU", "I'M")
+newnew_sentence = sentence.replace("?", "!")
+print(sentence)
+print(newnew_sentence)
+
+
+print("\n--- Formatted Strings ---")
+
+name = "Ada"
+age = 28
+city = "London"
+
+print(f"Hello, my name is {name}. I am {age} years old and live in {city}.")
+print(f"Next year I'll be {age + 1}. My name in uppercase is {name.upper()}.")
