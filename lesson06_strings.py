@@ -46,3 +46,16 @@ city = "London"
 
 print(f"Hello, my name is {name}. I am {age} years old and live in {city}.")
 print(f"Next year I'll be {age + 1}. My name in uppercase is {name.upper()}.")
+
+# quote = input("What is your favorite quote?")
+# print(f"Your quote is {len(quote)} characters long.")
+
+# first = input("First name:")
+# last = input("Last name:")
+# print(last + "," + first)
+
+word = input("Please give me a word.")
+print(word.upper())
+print(word.lower())
+print(word.capitalize())
+print(word[::-1])
