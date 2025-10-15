@@ -50,9 +50,6 @@ else:
 
 # Logical operator: and
 # Both sides of the 'and' must  be true, otherwise it's false. 
-print()
-print()
-print()
 
 age = 16
 has_permission = True
@@ -64,7 +61,7 @@ else:
 
 # Using 'or' and 'not'
 print("--- Using 'or' --- ")
-day = "Monday"
+day = "Tuesday"
 
 if day == "Saturday" or  day == "Sunday":
     print("It's the weekend!")
@@ -73,7 +70,7 @@ elif day == "Monday" or day == "Tuesday":
 else:
     print("It's Wed,Thur, or Fri")
 
-if day is not "Monday":
+if day != "Monday":
     print("It's not Monday")
 
 # numbah = int(input("Please enter a number:"))    
