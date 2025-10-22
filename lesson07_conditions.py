@@ -90,3 +90,13 @@ if day != "Monday":
 grados = int(input("Please enter a grade:"))
 if grados>=90:
     print("You got an A!")
+elif 80<=grados and grados<=89:
+    print("You got a B!")    
+elif 70<=grados and grados<=79:
+    print("You got a C!")    
+elif 60<=grados and grados<=69:
+    print("You got a D!") 
+elif 0<=grados and grados<=59:
+    print("You got a F!")               
+else:
+    print("Please enter a whole number greater than 0.")        
